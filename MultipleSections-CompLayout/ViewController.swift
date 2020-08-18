@@ -77,6 +77,7 @@ class ViewController: UIViewController {
             } else {
                 cell.backgroundColor = .systemPink
             }
+            cell.layer.cornerRadius = 12
             return cell
         })
         
